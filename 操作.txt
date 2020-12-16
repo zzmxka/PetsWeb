@@ -1,0 +1,14 @@
+下载代码  
+git clone 代码地址
+
+代码状态
+git status
+
+提交到本地
+git add .
+
+提交主题
+git commit -m "内容"
+
+推送
+git push
