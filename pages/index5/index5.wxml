@@ -1,0 +1,50 @@
+<view class="User"  wx:for="{{list}}" wx:key="id">
+  <view class="User-group">
+    <view class="User-infor">
+      <image class="avatar" src="{{item.img}}">
+      </image>
+      <view class="User-right">
+        <view class="User-name">{{item.name}}</view>
+      <view class="Date">
+        <view class="time">
+          {{item.time}}
+        </view>
+      <view class="Phone">
+        {{item.Phone}}
+      </view>
+    </view>
+    </view>
+    </view>
+    <view class="content">
+      <view class="size">
+            <navigator url="/pages/index4/index4">{{item.size}}</navigator>
+          </view>
+          <view class="size1">
+            <navigator url="/pages/index4/index4">{{item.size1}}</navigator>
+          </view>
+      <view class="Tu">
+        <image class="pice" src="{{item.img1}}"></image>
+        
+        <view class="buttom">
+          
+          
+          <view class="Tubiao">
+          <view class="plun">
+            <image  src="{{item.img2}}">
+            </image>178
+            
+          </view>
+          <view class="dzan">
+            <image  src="{{item.img3}}">
+            </image>293
+          </view>
+            <view class="zhuanf">
+            <image  src="{{item.img4}}">
+            </image>79
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>>

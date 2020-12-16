@@ -1,0 +1,7 @@
+
+<view class="tabs">
+  <view class="tab_title">
+    <view class="title_item {{item.isActive?'active':''}}"bindtap="hanldeItemTap" data-index="{{index}}"wx:for="{{tabs}}"wx:key="id">{{item.name}}</view>
+</view>
+    <view class="tab_content">内容</view>
+</view>

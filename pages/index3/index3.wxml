@@ -1,0 +1,78 @@
+
+<view class="Personal">
+  <view class="zd">
+  <view class="af">
+      <image src="/pages/images/Add friends.png" mode="aspectFit" style="width: 50rpx; height: 50rpx" /> 
+     </view>
+<view class="er">
+      <image src="/pages/images/Er.png" mode="aspectFit" style="width: 40rpx; height: 40rpx" /> 
+     </view>
+     <view class="su">
+      <image src="/pages/images/set up.png" mode="aspectFit" style="width: 60rpx; height: 60rpx" /> 
+     </view></view>
+<view class="login">
+     <image src="http://5b0988e595225.cdn.sohucs.com/images/20180625/fea477a5e5b64805a8e2fd6be1199cf5.jpeg" mode="aspectFill" ></image>
+</view>
+<view class="Zhong">
+          <view class="Tmu">
+               汤姆猫
+               <view class="Man">
+               <image src="/pages/images/Man.png"></image>
+          </view>
+          </view>
+          <view class="Deng">
+          <view class="Dengji">
+               Lv5
+          </view>
+     </view>
+          <view class="QianM">
+               个性签名：这个人很懒，只留下了十四个字
+          </view>
+     </view>
+</view>
+<view class="Buttom">
+     <view class="Tu">
+          <view class="buttom">
+          <view class="Pice1">
+               <image src="/pages/images/Tzi.png">
+               </image>
+          </view>
+          <view class="Pice2">
+               <image src="/pages/images/Scang.png">
+               </image>
+          </view>
+          <view class="Pice3">
+               <image src="/pages/images/Llan.png">
+               </image>
+          </view>
+     </view>
+     <view class="Size">
+          <view class="size">
+               <view class="size1">
+                    <text>我的帖子</text>
+          </view>
+          <view class="size2">
+               <text>我的收藏</text> 
+          </view>
+          <view class="size3">
+               <text>浏览记录</text>             
+          </view>
+          </view>
+     </view>
+     <view class="buttom2">
+          <view class="Pice12">
+               <image src="/pages/images/Xce.png">
+               </image>
+          </view>
+     </view>
+     <view class="Size2">
+               <view class="size4">
+                    <text>我的相册</text>
+               </view>
+          </view>
+</view>
+     </view>
+
+
+
+

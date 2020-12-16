@@ -1,0 +1,36 @@
+<!--pages/index4/index4.wxml-->
+<view class="User"  wx:for="{{list}}" wx:key="id">
+  <view class="User-group">
+    <view class="User-infor">
+      <image class="avatar" src="{{item.img}}">
+      </image>
+      <view class="User-right">
+        <view class="User-name">{{item.name}}</view>
+      <view class="Date">
+        <view class="time">
+          {{item.time}}
+        </view>
+      <view class="Phone">
+        {{item.Phone}}
+      </view>
+    </view>
+    </view>
+    </view>
+    <view class="content">
+      <view class="size">
+           {{item.size}}
+          </view>
+      <view class="Tu">
+        <image class="pice" src="{{item.img1}}"></image>
+        <view class="buttom">
+         
+          <view class="size1">
+            {{item.size1}}
+          </view>
+       
+      </view>
+    </view>
+  </view>
+</view>
+
+</view>

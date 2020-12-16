@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "Home":"../../components/Home/Home",
+    "SameTown":"../../components/SameTown/SameTown"
+  }
+}

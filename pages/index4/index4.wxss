@@ -1,0 +1,73 @@
+.User{
+  background-color:#f2f2f2;
+  border:11rpx solid #fff
+}
+
+.User .User-group{
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 12rpx;
+}
+.User-group .User-infor{
+  display: flex;
+}
+.User-infor .avatar{
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 50%;
+}
+.User-infor .User-right{
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.User-right .User-name{
+  font-size: 35rpx;
+  color: #323232;
+}
+.User-right .Date{
+  font-size: 30rpx;
+  display: flex;
+  color: #656565;
+}
+.Date .time{
+  margin-right: 20rpx;
+}
+.content{
+  padding: 10rpx ;
+}
+.Tu .pice{
+  width: 710rpx;
+  height: 400rpx;
+  border-radius: 2%;
+}
+.buttom .size1{
+  font-size: 30rpx;
+}
+.Tubiao image{
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 20rpx;
+}
+.Tubiao{
+  display: flex;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+}
+.Tubiao view{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-right: 21rpx;
+}
+.User1{
+  padding-top: 30rpx;
+}
+
+
+
+
+

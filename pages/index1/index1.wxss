@@ -1,0 +1,202 @@
+
+page{
+  background-color: #f2f2f2;
+}
+.Top{
+  padding-top: 10rpx;
+  background-color: burlywood;
+  height: 65rpx;
+}
+.top{
+  background-color: rgb(215, 236, 236);
+  width: 600rpx;
+}
+.Daohang{
+  display: flex;
+}
+.Top .top{
+  margin-left: 72rpx;
+  border-radius: 200rpx;
+}
+
+.Daohang input{
+  font-size: 30rpx;
+  display: flex;
+  flex-direction: row;
+  margin:  auto;
+}
+.Daohang icon{
+  flex-direction: row;
+  display: flex;  
+}
+.List{
+  padding-top: 20rpx;
+}
+.List .list{
+  background-color: #fff;
+}
+.list .pice{
+  padding: 20rpx;
+  display: flex;
+  border:4rpx solid #f2f2f2
+}
+.pice view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20rpx;
+}
+
+ .content {
+  padding-bottom: 20rpx;
+  box-sizing: border-box;
+  height: 100%;
+  position: fixed;
+ }
+ .location {
+  width: 100%;
+ }
+ .Add{
+   margin-top: 180rpx;
+ }
+.Add .circle{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+}
+.yuan .jia{
+  display: flex;
+  justify-content: center;
+  margin-top: 42rpx;
+  color: #fff;
+}
+ .circle .yuan{
+   background-color: blue;
+   border-radius: 50%;
+ }
+.Add .size{
+  display: flex;
+  flex: 2;
+  justify-content: center;
+}
+.size text{
+  font-size: 25rpx;
+}
+ .location_top {
+  height: 76rpx;
+  line-height: 76rpx;
+  background: #f4f4f4;
+  color: #606660;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+ }
+   
+ .location_bottom {
+  height: 140rpx;
+  line-height: 140rpx;
+  color: #d91f16;
+  font-size: 28rpx;
+  border-top: 1rpx #e5e5e5 solid;
+  border-bottom: 1rpx #e5e5e5 solid;
+  padding: 0 20rpx;
+  align-items: center;
+  display: -webkit-flex;
+ }
+   
+ .address_top {
+  height: 56rpx;
+  line-height: 56rpx;
+  background: #ebebeb;
+  color: #384857;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+ }
+   
+ .address_bottom {
+  height: 88rpx;
+  line-height: 88rpx;
+  background: #fff;
+  color: #000;
+  font-size: 28rpx;
+  border-bottom: 1rpx #e5e5e5 solid;
+  margin: 0 32rpx;
+ }
+   
+ .location_img {
+  width: 48rpx;
+  height: 48rpx;
+  position: absolute;
+  right: 20rpx;
+  top: 125rpx;
+ }
+   
+ .add_city {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 1rpx solid #e5e5e5;
+  color: #000;
+  margin-right: 20rpx;
+ }
+   
+ .add_citying {
+  width: 228rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  text-align: center;
+  border: 1rpx solid #09bb07;
+  color: #09bb07;
+  margin-right: 20rpx;
+ }
+   
+ .orientation {
+  white-space: normal;
+  display: inline-block;
+  width: 45rpx;
+  height: 50rpx;
+  font-size: 28rpx;
+  font-weight: bold;
+  color: rgb(88, 87, 87);
+  text-align: center;
+ }
+   
+ .orientation_region {
+  padding: 5px 0px;
+  width: 45rpx;
+  font-size: 20rpx;
+  position: fixed;
+  top: 50%;
+  right: 6rpx;
+  transform: translate(0, -50%);
+  background: rgb(199, 198, 198);
+  border-radius: 10px;
+ }
+   
+ .orientation_city {
+  height: 40rpx;
+  line-height: 40rpx;
+  color: #000;
+  text-align: center;
+ }
+   
+ .active {
+  color: #2cc1d1;
+ }
+   
+ .list-fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  height: 56rpx;
+  line-height: 56rpx;
+  background: #ebebeb;
+  color: #999;
+  font-size: 28rpx;
+  padding: 0 20rpx;
+  z-index: 9999;
+ }
+   
+ .fixed-title {
+  color: #2cc1d1;
+ }

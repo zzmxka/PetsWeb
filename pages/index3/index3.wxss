@@ -1,0 +1,125 @@
+.Personal{
+  background-image: url(https://i.loli.net/2020/12/04/WNdtuFRA3CIqbTQ.jpg);
+}
+.zd{
+  display: flex;
+}
+.zd view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.zd .er {
+  margin-left: 490rpx;
+}
+.zd .su {
+  margin-left: 80rpx;
+}
+.zd .af{
+  margin-left: 30rpx;
+}
+.login{
+  display: flex;
+  /* 水平垂直居中 */
+  justify-content: center;
+  align-items: center;
+}
+.login>image{
+  width: 200rpx;
+  height: 200rpx;
+  border-radius: 50%;
+  border: 10rpx solid rgba(0, 0, 0, 0.1);
+}
+
+.Man image{
+  width: 40rpx;
+  height: 40rpx;
+}
+.Zhong view{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30rpx;
+}
+.Tmu{
+  margin-left: 52rpx;
+  margin-top: 20rpx;
+}
+.Tmu .Man image{
+  margin-left: 10rpx;
+}
+.Deng .Dengji{
+  width: 90rpx;
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20%;
+  height: 30rpx;
+  margin-top: 15rpx;
+  font-size: 30rpx;
+}
+.Zhong .QianM{
+  margin-top: 20rpx;
+}
+.Buttom{
+  padding: 50rpx;
+}
+.buttom image{
+  width: 70rpx;
+  height: 70rpx;
+}
+.Tu .buttom{
+  display: flex;
+}
+.buttom view{
+  display: flex;
+  flex: 1;
+}
+.Pice1 image{
+  padding-left: 30rpx;
+}
+.Pice2 image{
+  margin-left: 75rpx;
+}
+.Pice3 image{
+  margin-left: 130rpx;
+}
+.size view{
+  font-size: 30rpx;
+  display: flex;
+  flex: 1;
+}
+.Size .size{
+  display: flex;
+}
+.size .size2 {
+  padding-left: 75rpx;
+}
+.size3 text{
+  padding-left: 80rpx;
+}
+
+.buttom2 image{
+  width: 90rpx;
+  height: 90rpx;
+  margin-top: 100rpx;
+}
+.Tu .buttom2{
+  display: flex;
+}
+.buttom2 view{
+  display: flex;
+  flex: 1;
+}
+.Pice12 image{
+  padding-left: 10rpx;
+}
+.Size2 .size4{
+  font-size: 30rpx;
+}
+
+
+
+
+

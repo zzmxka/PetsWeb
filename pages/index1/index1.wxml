@@ -1,0 +1,59 @@
+
+  <view class="Top">
+    <view class="top">
+      <view class="Daohang">
+        <input placeholder="搜索名字、关键字" bindinput="bindKeyInput"></input>
+        <view class="icon">
+      <icon type="search" size="21" bindtap="search" />
+    </view>
+      </view>
+    </view>
+  </view>
+  <view class="List">
+    <view class="list">
+      <view class="pice" wx:for="{{list}}" wx:key="id">
+        <image src="{{item.img}}" style="width:110rpx;height:110rpx" mode="aspectFill"></image>
+        <view class="size">{{item.name}}</view>
+      </view>
+    </view>
+  </view>
+  <navigator url="../index1/index1_info?id={{}}">
+  <view class="Button">
+    <view class="Add">
+      <view class="circle">
+        <view class="yuan" style="width:120rpx;height:120rpx">
+          <view class="jia">
+            <text>+</text>
+          </view>
+        </view>
+      </view>
+      <view class="size">
+        <text>点击添加朋友</text>
+      </view>
+  </view>
+    </view>
+  </navigator>
+ <!-- 左侧列表内容部分 -->
+ <scroll-view class="content" enable-back-to-top scroll-into-view="{{toView}}" scroll-y="true" scroll-with-animation="true" bindscroll="onPageScroll">
+ <view wx:for="{{listMain}}" wx:for-item="group" wx:key="{{group.id}}" id="{{ 'inToView'+group.id}}" data-id='{{group.id}}'>
+  <view class="address_top">{{group.name}}</view>
+
+  <view wx:for="{{group.list}}" wx:for-item="bdiet" wx:key="{{index}}">
+  <navigator url='./wholeDetail?id={{bdiet.id}}' hover-class='none'>
+   <view class="address_bottom" data-id='{{bdiet.id}}'>{{bdiet.wiki_name}}</view>
+  </navigator>
+  </view>
+ </view>
+ </scroll-view>
+ <!-- 右侧字母导航 -->
+ <view class="orientation_region">
+ <view class="orientation">A</view>
+ <view class="orientation">B</view>
+ <view class="orientation">C</view>
+ <view class="orientation">D</view>
+ <block wx:for="{{listMain}}" wx:key="{{item.id}}">
+  <view class="orientation_city {{isActive==item.id ? 'active':'' }}" bindtap="scrollToViewFn" data-id="{{item.id}}">
+  {{item.name}}
+  </view>
+ </block>
+ </view>

@@ -1,0 +1,14 @@
+<view class="Xing1">
+<view class="personal">
+<View class="xingxi" wx:for="{{list}}" wx:key="id">
+  <image src="{{item.img}}" style="width:110rpx;height:110rpx"></image>
+<view class="name">
+  <view>
+   {{item.name}}
+  </view>
+
+<view class="news">{{item.size}}</view></view>
+</View>
+
+</view>
+</view>

@@ -1,0 +1,188 @@
+.cwq .top {
+  display: flex;
+  padding: 10rpx;
+  flex-direction: row;
+  background-color: #efefef;
+  position: relative;
+  border-radius: 200rpx;
+  width: 520rpx;
+  margin:  auto;
+  font-size: 32rpx;
+  height: 50rpx;
+}
+.Top{
+  background: rgb(235, 212, 169);
+  height: 90rpx;
+  display: flex;
+}
+.cw .Size{
+  font-size: 35rpx;
+  margin-top: 12rpx;
+}
+.Top .cwq{
+  margin-left: 20rpx;
+}
+
+.icon {
+  width: 10%;
+  position: absolute;
+  left: 15rpx;
+  bottom: 1rpx;
+}
+
+.top>input{
+  font-size: 35rpx;
+  margin-left: 80rpx;
+  margin: auto;
+}
+
+.QR{
+  right: 15rpx;
+  position: absolute;
+  margin-top: 5rpx;
+}
+.Gren .tu{
+  width: 63rpx;
+  height: 63rpx;
+}
+.Gren{
+  margin-left: 20rpx;
+  padding-top: 5rpx;
+  position: relative;
+}
+.topcolor{
+  width: 1000rpx;
+  height: 100rpx;
+  background-color: rgb(217, 226, 212);
+}
+.middle {
+  display: flex;
+  padding: 5rpx;
+  flex-direction: row;
+  background-color: #f2f2f2;
+  position: relative;
+  margin-bottom: 20rpx;
+  border-radius: 20rpx;
+  width: 700rpx;
+  margin-left: 22rpx;
+  border:1rpx solid #000
+}
+.middle>input{
+  font-size: 35rpx;
+  margin-left: 80rpx;
+}
+.middle1{
+  background-color: #fff;
+}
+.title{
+  float: left;
+  width: 100%;
+  display: flex;
+  flex: 1;
+}
+.active{
+  color: red;
+  border-bottom: 5rpx solid currentColor;
+}
+.title>view{
+  text-align: center;
+  width: 20vw;
+  font-size: 35rpx;
+  margin-bottom: auto;
+  margin-top: 28rpx;
+}
+.CD{
+  right: 15rpx;
+  position: absolute;
+  margin-top: 25rpx;
+}
+
+.Bi{
+  right: 15rpx;
+  position: absolute;
+}
+
+.middle>input{
+  font-size: 35rpx;
+  margin-left: 200rpx;
+}
+
+.middle{
+  margin-top: 15rpx;
+}
+.middle1{
+  background-color: #fff;
+}
+.User{
+  background-color:#f2f2f2;
+  border:11rpx solid #fff
+}
+
+.User .User-group{
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 12rpx;
+}
+.User-group .User-infor{
+  display: flex;
+}
+.User-infor .avatar{
+  height: 90rpx;
+  width: 90rpx;
+  border-radius: 50%;
+}
+.User-infor .User-right{
+  flex: 1;
+  margin-left: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.User-right .User-name{
+  font-size: 35rpx;
+  color: #323232;
+}
+.User-right .Date{
+  font-size: 30rpx;
+  display: flex;
+  color: #656565;
+}
+.Date .time{
+  margin-right: 20rpx;
+}
+.content{
+  padding: 10rpx ;
+}
+.Tu .pice{
+  width: 710rpx;
+  height: 400rpx;
+  border-radius: 2%;
+}
+.buttom .size1{
+  font-size: 30rpx;
+}
+.Tubiao image{
+  width: 38rpx;
+  height: 38rpx;
+  margin-right: 20rpx;
+}
+.Tubiao{
+  display: flex;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+}
+.Tubiao view{
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  padding-right: 21rpx;
+}
+.User1{
+  padding-top: 30rpx;
+}
+
+
+
+
+

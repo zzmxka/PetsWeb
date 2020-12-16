@@ -1,0 +1,55 @@
+{
+  "pages":[  
+    "pages/index/index",
+    "pages/index6/index6",
+    "pages/index4/index4",
+    "pages/index5/index5",
+    "pages/index1/index1",
+    "pages/index2/index2",
+    "pages/index3/index3",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#f4f4f4",
+    "navigationBarTitleText": "宠物社区",
+    "navigationBarTextStyle":"black"
+  },
+"tabBar": {
+  "color": "#000000",
+  "selectedColor": "#1E90FF",
+  "borderStyle": "white",
+  "backgroundColor": "#ffffff",
+  "list":[
+    {
+    "pagePath": "pages/index/index",
+    "iconPath": "/pages/images/home page1.png",
+    "selectedIconPath": "/pages/images/home page1.png",
+    "text": "首页"
+    },
+    {
+    "pagePath": "pages/index1/index1",
+    "iconPath": "/pages/images/friend.png",
+    "selectedIconPath": "/pages/images/friend.png",
+    "text": "联系人"
+    },
+    {
+      "pagePath": "pages/index2/index2",
+      "iconPath": "/pages/images/news1.png",
+      "selectedIconPath": "/pages/images/news1.png",
+      "text": "信息"
+      },
+    {
+      "pagePath": "pages/index3/index3",
+      "iconPath": "/pages/images/personal.png",
+      "selectedIconPath": "/pages/images/personal.png",
+      "text": "个人中心"
+      }
+  ]
+},
+"requiredBackgroundModes": [
+  "audio"
+],
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

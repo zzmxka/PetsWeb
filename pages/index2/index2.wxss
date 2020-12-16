@@ -1,0 +1,30 @@
+.Xing1{
+  padding-top: 10rpx;
+}
+.Xing1 .personal{
+  background-color:#fff;
+}
+.personal .xingxi{
+  padding: 10rpx;
+  display: flex;
+  border: 5rpx solid #f2f2f2;
+}
+
+.xingxi view{
+  display: flex;
+  margin-left: 0rpx;
+}
+.personal .news{
+ justify-content: center;
+  align-items: center;
+}
+.name .news{
+  font-size: 30rpx;
+  color: #ceb1b1;
+}
+.xingxi .name{
+  display: flex;
+}
+
+
+
